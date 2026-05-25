@@ -10,17 +10,17 @@
 
 ---
 
-## ✨ Features
+## Features
 
-- **⚡ Real-Time Camera Analysis**: Uses **Jetpack CameraX** to run efficient on-device eye tracking.
-- **🧠 Offline AI Processing**: Uses **Google ML Kit Face Detection** (Contour Mode) locally to locate eye contours without sending data to the cloud.
-- **🚨 Audible Alarm**: Instantly plays a warning sound via **MediaPlayer** when eye closure threshold drops below `0.25`.
-- **📈 Live Analytics**: Plots real-time EAR levels (line chart) and session distribution (pie chart) using **MPAndroidChart**.
-- **💾 Local History Logs**: Saves detection events and statistics locally in a **Room SQLite database**.
+- ** Real-Time Camera Analysis**: Uses **Jetpack CameraX** to run efficient on-device eye tracking.
+- ** Offline AI Processing**: Uses **Google ML Kit Face Detection** (Contour Mode) locally to locate eye contours without sending data to the cloud.
+- ** Audible Alarm**: Instantly plays a warning sound via **MediaPlayer** when eye closure threshold drops below `0.25`.
+- ** Live Analytics**: Plots real-time EAR levels (line chart) and session distribution (pie chart) using **MPAndroidChart**.
+- ** Local History Logs**: Saves detection events and statistics locally in a **Room SQLite database**.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+##  Tech Stack & Architecture
 
 - **Pattern**: MVVM with reactive UI flow (Coroutines, StateFlow, ViewBinding).
 - **Libraries**: CameraX, Room DB, Navigation Component, Google ML Kit, MPAndroidChart.
@@ -28,7 +28,7 @@
 
 ---
 
-## 📐 Detection Logic (EAR)
+##  Detection Logic (EAR)
 
 The application tracks the **Eye Aspect Ratio (EAR)** using 16 eyelid contour points:
 
@@ -40,7 +40,7 @@ $$EAR = \frac{||p_3 - p_{13}|| + ||p_5 - p_{11}||}{2 \cdot ||p_0 - p_8||}$$
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Installation & Run
 
