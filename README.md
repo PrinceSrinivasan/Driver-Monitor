@@ -1,4 +1,4 @@
-# 🚗 Driver Monitor - Drowsiness Detection Android App
+#  Driver Monitor - Driver Drowsiness Detection Android App
 
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9-purple.svg?logo=kotlin)](https://kotlinlang.org)
 [![Android SDK](https://img.shields.io/badge/Min%20SDK-24-blue.svg?logo=android)](https://developer.android.com/about/versions/nougat)
