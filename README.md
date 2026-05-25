@@ -46,7 +46,7 @@ $$EAR = \frac{||p_3 - p_{13}|| + ||p_5 - p_{11}||}{2 \cdot ||p_0 - p_8||}$$
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/DrowsinessApp.git
+   git clone https://github.com/PrinceSrinivasan/Driver-Monitor.git
    cd DrowsinessApp
    ```
 2. Open the project in **Android Studio**.
